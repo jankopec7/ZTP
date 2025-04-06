@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamiczna zmiana koloru tła</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.5s;
+        }
+        label {
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wybierz kolor tła</h1>
+    <label for="colorPicker">Kolor:</label>
+    <input type="color" id="colorPicker" value="#ffffff">
+
+    <script>
+        const colorPicker = document.getElementById('colorPicker');
+        
+        colorPicker.addEventListener('input', (event) => {
+            document.body.style.backgroundColor = event.target.value;
+        });
+    </script>
+</body>
+</html>
