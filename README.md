@@ -9,4 +9,4 @@ Każde laboratorium znajduje się w oddzielnym folderze, w którym znajdują si�
 - **lab3/** – Materiały laboratoryjne z laboratorium 3  
 - **lab4/** – Materiały laboratoryjne z laboratorium 4  
 - **lab5/** – Materiały laboratoryjne z laboratorium 5 
-
+- **lab6/** – Materiały laboratoryjne z laboratorium 6
